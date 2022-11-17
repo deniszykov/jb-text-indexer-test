@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
+		<PackageReference Include="System.Memory" Version="4.5.5" />
+		<PackageReference Include="System.Reactive" Version="5.0.0" />
+		<PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+		<PackageReference Include="TrieNet.Core" Version="1.0.4" />
+		<PackageReference Include="xunit" Version="2.4.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\TextSearch\TextSearch.csproj" />
+	</ItemGroup>
+
+</Project>
